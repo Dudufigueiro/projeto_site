@@ -6,6 +6,9 @@ const router = express.Router();
 router.get('/login', (req, res) => {
   res.render('login');
 });
+router.get('/dashboard', (req, res) => {
+  res.render('dashboard');
+});
 
 router.post('/login', async (req, res) => {
   const { email, senha } = req.body;
@@ -16,7 +19,7 @@ router.post('/login', async (req, res) => {
     const usuario = result.rows[0];
     if (senha === usuario.senha) {
       req.session.userId = usuario.id;
-      res.send('Login bem-sucedido!');
+      res.redirect('/dashboard');
     } else {
       res.send('Senha incorreta.');
     }
