@@ -1,1 +1,4 @@
-teste
+*Tecnologias Utilizadas*
+
+- Bootstrap
+- Node
