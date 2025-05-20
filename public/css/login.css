@@ -8,7 +8,7 @@
 body {
   background-color: #0a0a0a;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #aee2ff;
+  color: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ body {
   background-color: #111;
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+  /*box-shadow: 0 0 30px rgba(244, 17, 17, 0.2);*/
   width: 100%;
   max-width: 400px;
 }
@@ -29,7 +29,7 @@ body {
   text-align: center;
   margin-bottom: 30px;
   font-size: 2rem;
-  color: #80d0ff;
+  color: red;
   letter-spacing: 2px;
 }
 
@@ -46,7 +46,7 @@ body {
 
 .input-group .icon {
   margin-right: 10px;
-  color: #80d0ff;
+  color: red;
   font-size: 1.2rem;
 }
 
@@ -63,7 +63,7 @@ body {
 button[type="submit"] {
   width: 100%;
   padding: 12px;
-  background-color: #0f4c75;
+  background-color: red;
   color: #e0f7ff;
   border: none;
   border-radius: 6px;
@@ -74,7 +74,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #3282b8;
+  background-color: red;
 }
 
 /* Opções extras */
@@ -86,7 +86,7 @@ button[type="submit"]:hover {
 }
 
 .options a {
-  color: #80d0ff;
+  color: red;
   text-decoration: none;
 }
 
