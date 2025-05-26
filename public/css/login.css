@@ -34,7 +34,7 @@ body {
 }
 
 /* Campos de entrada */
-.input-group {
+.input-email {
   display: flex;
   align-items: center;
   background-color: #1a1a1a;
@@ -44,13 +44,13 @@ body {
   padding: 10px 12px;
 }
 
-.input-group .icon {
+.input-email .icon {
   margin-right: 10px;
   color: red;
   font-size: 1.2rem;
 }
 
-.input-group input {
+.input-email input {
   background: none;
   border: none;
   outline: none;
@@ -92,4 +92,29 @@ button[type="submit"]:hover {
 
 .options a:hover {
   text-decoration: underline;
+}
+
+.input-senha {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  border: 1px solid #3f3f3f;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 12px;
+}
+
+.input-senha .icon {
+  margin-right: 10px;
+  color: red;
+  font-size: 1.2rem;
+}
+
+.input-senha input {
+  background: none;
+  border: none;
+  outline: none;
+  color: #e0f7ff;
+  font-size: 1rem;
+  width: 100%;
 }

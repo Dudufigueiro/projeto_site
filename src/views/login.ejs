@@ -4,19 +4,21 @@
   <meta charset="UTF-8">
   <title>Login</title>
   <link rel="stylesheet" href="/css/login.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
   <div class="login-container">
     <h2>LOGIN</h2>
     <form action="/login" method="POST">
       <label for="email">Email</label>
-      <div class="input-group">
+      <div class="input-email">
         <input type="email" id="email" name="email" placeholder="Email" required />
       </div>
 
       <label for="password">Senha</label>
-      <div class="input-group">
-        <input type="password" id="password" name="senha" placeholder="Senha" required />
+      <div class="input-senha">
+        <input type="password" id="passwordCampo" name="senha" placeholder="Senha" required />
+        <i class="bi bi-eye" id="btnEsconder" onclick="mostrarSenha()"></i>
       </div>
 
       <button type="submit">LOGIN</button>
@@ -27,5 +29,7 @@
       </div>
     </form>
   </div>
+
+  <script src="/js/main.js"></script>
 </body>
 </html>
